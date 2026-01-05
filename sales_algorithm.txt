@@ -9,7 +9,7 @@ For each product i from 1 to N
     Input quantitySold
     Set revenue = price * quantitySold
     
-    If revenue > maxRevenue
+    If revenue >= maxRevenue
         Set maxRevenue = revenue
         Set bestProduct = productName
     End If
@@ -17,3 +17,4 @@ End Loop
 
 Print bestProduct and maxRevenue
 Stop
+
