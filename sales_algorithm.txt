@@ -1,0 +1,19 @@
+Start
+Input number of products N
+Set maxRevenue = 0
+Set bestProduct = ""
+
+For each product i from 1 to N
+    Input productName
+    Input price
+    Input quantitySold
+    Set revenue = price * quantitySold
+    
+    If revenue > maxRevenue
+        Set maxRevenue = revenue
+        Set bestProduct = productName
+    End If
+End Loop
+
+Print bestProduct and maxRevenue
+Stop
