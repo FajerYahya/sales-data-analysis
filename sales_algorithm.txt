@@ -3,7 +3,7 @@ Input number of products N
 Set maxRevenue = 0
 Set bestProduct = ""
 
-For each product i from 1 to N
+For each product i from 0 to N
     Input productName
     Input price
     Input quantitySold
@@ -17,3 +17,4 @@ End Loop
 
 Print bestProduct and maxRevenue
 Stop
+
